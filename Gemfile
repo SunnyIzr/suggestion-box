@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # PostgreSQL driver
 gem 'pg'
@@ -16,8 +16,8 @@ gem 'activerecord', '~>4.2'
 gem 'rake'
 
 gem 'shotgun'
+gem 'faker'
 
 group :test do
-  gem 'faker'
   gem 'rspec'
 end
